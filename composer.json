@@ -1,0 +1,7 @@
+{
+    "require": {
+        "illuminate/database": "^5.5",
+        "flow/flow": "0.8",
+        "illuminate/events": "^5.5"
+    }
+}

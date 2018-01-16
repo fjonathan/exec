@@ -1,0 +1,8 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine on
+
+RewriteRule  app/(.*)  app/$1 [L,NC]
+RewriteRule  (.*)  web/$1  [L,NC]
+
+

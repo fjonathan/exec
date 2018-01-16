@@ -1,0 +1,77 @@
+/********************
+* b0nzai
+* @global
+*********************/
+
+/* Carousel */
+
+.carousel.carousel-slider {
+    height: 100vh !important;
+}
+
+/* Form */
+
+.form, .table {
+    height: 100%;
+}
+
+.form button {
+    margin-top: 20px;
+}
+.form form.center {
+    float: none;
+    margin: 0 auto;
+}
+
+.form form {
+    background-color: #fff;
+    padding: 20px 40px !important;
+    border-radius: 3px;
+    max-width: 40%;
+}
+
+.form form .input-field input[type=text]:focus + label, .input-field input[type="email"]:focus + label  {
+    color: #64b5f6 !important;
+}
+
+.form form .input-field input[type=text]:focus {
+    border-bottom: 1px solid #64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6 !important;
+}
+
+.form form .input-field input[type="email"]:focus {
+    border-bottom: 1px solid #64b5f6 !important;
+    box-shadow: 0 1px 0 0 #64b5f6 !important;
+}
+
+.form .parsley-errors-list {
+    margin: 0;
+    float: left;
+}
+
+.form .parsley-errors-list li {
+    font-size: 10px;
+    color: #888;
+}
+
+.form h2{
+    color: #fff;
+    font-size: 30px !important;
+    font-weight: 100 !important;
+}
+
+/* table */
+
+.table table {
+    width: 60%;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+.table h2{
+    color: #2196F3;
+    font-size: 30px !important;
+    font-weight: 100 !important;
+    margin-bottom: 55px;
+}
